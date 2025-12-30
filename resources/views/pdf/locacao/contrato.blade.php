@@ -55,7 +55,7 @@
 <body>
     <table style="width: 100%">
         <tr>
-            <td><img src="{{ asset('img/logo.png') }}" alt="Image" height="60" width="180"></td>
+            <td><img src="{{ public_path('img/logo.png') }}" alt="Image" height="60" width="180"></td>
             <td>
                 <p style="width: 100%; font-size:28px; font-weight: bold;" align="center">LOCA CAR RENTAL</p>
                 <p style="font-size:16px;" align="center">Av: Dr Carlos Botelho, 265 - Centro<br>
@@ -206,11 +206,15 @@
     <div style="width: 100%; text-align: center; margin-top: 30px;">
         <p>Pariquera-açu, {{ $dataAtual->isoFormat('DD MMMM YYYY') }}</p>
         <div style="display: inline-block; text-align: center;">
+            <br>
+            <br>
             <div>
+
                 _________________________________________<br>
                 LOCADOR: LOCADOR: LOCA CAR RENTAL.<br>
                 <span style="font-size:10px;">Proprietário ou representante legal da Empresa</span>
             </div>
+            <br>
             <br>
             <div>
                 _________________________________________<br>
@@ -345,7 +349,7 @@
             <b>CPF:</b> {{ $cpfCnpj }}<br><br><br>
 
             ___________________________________________________________<br>
-             <br>
+            <br>
             <b>CPF:</b> 034.104.828-30<br><br><br>
 
             @if (!empty($locacao->testemunha_1))
