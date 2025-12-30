@@ -349,7 +349,7 @@
             <b>CPF:</b> {{ $cpfCnpj }}<br><br><br>
 
             ___________________________________________________________<br>
-            <br>
+            LOCADOR: LOCA CAR RENTAL.<br>
             <b>CPF:</b> 034.104.828-30<br><br><br>
 
             @if (!empty($locacao->testemunha_1))
